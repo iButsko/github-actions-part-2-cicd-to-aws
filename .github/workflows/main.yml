@@ -11,10 +11,10 @@ on:
       - master
  
 jobs:
-   my-ci-part:
+  my-ci-part:
     runs-on: ubuntu-latest
     
-  steps:
+    steps:
       - name: Git clone our repo
         uses: actions/checkout@v2
 
